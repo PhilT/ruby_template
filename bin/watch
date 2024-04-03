@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo Waiting for changes...
+while true; do
+inotifywait -qq -e modify,create,delete -r . && rspec
+done
