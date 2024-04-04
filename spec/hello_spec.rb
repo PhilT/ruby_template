@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require 'bundler'
+Bundler.setup
+
 require_relative '../app/hello'
 
 RSpec.describe Hello do

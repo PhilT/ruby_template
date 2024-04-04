@@ -6,6 +6,7 @@
 ## Run specs
 
     rspec
+
 or
 
     bin/watch

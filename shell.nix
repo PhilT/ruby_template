@@ -8,7 +8,8 @@ let
   };
 in mkShell { 
   packages = [ 
-    inotify-tools
+    bundix
+    
     gems 
     gems.wrappedRuby
   ]; 
